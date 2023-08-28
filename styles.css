@@ -116,6 +116,7 @@ body {
     color: #666;
     font-size: 14px;
     margin-top: 30px;
+    margin-bottom: 30px;
   }
 
     /* Estilos para los contenedores de imagen y botón */
@@ -297,4 +298,20 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+hr {
+  margin-bottom: 30px;
+}
+
+ol {
+margin-bottom: 100px;
+}
+
+.logo-footer {
+  width: 100px;
+  height: 100px;
+  float: right;
+  border-radius: 50px;
+  border: 5px solid black;
 }
