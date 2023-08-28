@@ -95,8 +95,8 @@ body {
     background-color: cadetblue;
     border: 5px solid black;
     margin-bottom: 20px;
-    height: 500px;
-    width: 500px;
+    height: 70%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,7 +125,7 @@ body {
         border: 5px solid black;
         margin-bottom: 20px;
         height: 25px;
-        width: 500px;
+        width: 70%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -135,7 +135,7 @@ body {
 
 
       .list {
-        font-size: 25px;
+        font-size: 35px;
     }
     
     .sub-apartados {
@@ -154,28 +154,38 @@ body {
     .escrito-boton-inicio  {
         font-size: 20px;
         color:black;
-        margin-left: 40px;
-        margin-top: 50px;
+        text-align: center;
+        margin-top: 100px;
     }
-  
+
+    .box-home-2 {
+      border-radius: 30px;
+      background-color:#0056b3;
+      border: 5px solid black;
+      float: center;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      height: 25px;
+      width: 100%;
+  }
+
     .escrito-boton-amazon  {
       font-size: 20px;
       color:black;
-      margin-right: 40px;
+      text-align: center;
       margin-top: 50px;
   }
 
-    .box-home-2 {
-        background-color:white;
-        border: 5px solid black;
-        float: right;
-        margin-right: 300px;
-        margin-bottom: 20px;
-        margin-top: 20px;
-        height: 25px;
-        width: 100px;
-    }
-
+  .box-amazon {
+    border-radius: 30px;
+    background-color:#0056b3;
+    border: 5px solid black;
+    float: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 25px;
+    width: 100%;
+  }
     
     li {
         margin-top: 25px;
@@ -189,8 +199,7 @@ body {
     .image {
         float: center;
         margin-top: 20px;
-        width: 400px;
-        height: 267px;
+        height: 60%;
     }
 
     .title-p {
@@ -205,26 +214,6 @@ body {
         text-align: center;
         margin: 20px 0;
       }
-
-      .box-home-2 {
-        border-radius: 30px;
-        background-color:#0056b3;
-        border: 5px solid black;
-        float: left;
-        margin-left: 40px;
-        margin-bottom: 20px;
-        margin-top: 20px;
-        height: 25px;
-        width: 100px;
-    }
-
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 20px;
-  padding: 0;
-  background-color: #f8f8f8;
-}
 
 .container {
   max-width: 800px;
@@ -255,6 +244,7 @@ body {
 p {
   color: #333;
   margin-top: 10px;
+  text-align: center;
 }
 
 strong {
@@ -283,18 +273,6 @@ h4 {
   color:#009688;
 }
 
-.box-amazon {
-  border-radius: 30px;
-  background-color:#0056b3;
-  border: 5px solid black;
-  float: right;
-  margin-left: 300px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  height: 25px;
-  width: 100px;
-}
-
 .enlace {
   font-size: 20px;
   color:#007bff;
@@ -306,4 +284,17 @@ h4 {
   height: 300px;
   border-radius: 150px;
   border: 5px solid black;
+}
+
+.boton-apartado-2 {
+  border-radius: 30px;
+  background-color: greenyellow;
+  border: 5px solid black;
+  margin-bottom: 70px;
+  margin-top: 30px;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
