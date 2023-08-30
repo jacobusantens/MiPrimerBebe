@@ -258,7 +258,7 @@ h4 {
   color:#0056b3;
 }
 
-.title-h3 {
+.title-h2 {
   margin-top: 120px;
   margin-bottom: 100px;
   text-align: center;
@@ -266,8 +266,8 @@ h4 {
   color:#009688;
 }
 
-.title-h3-top {
-  margin-top: 20px;
+.title-h2-top {
+  margin-top: 50px;
   margin-bottom: 100px;
   text-align: center;
   font-size: 40px;
@@ -300,18 +300,51 @@ h4 {
   align-items: center;
 }
 
-hr {
-  margin-bottom: 30px;
-}
-
-ol {
-margin-bottom: 100px;
-}
-
 .logo-footer {
   width: 100px;
   height: 100px;
   float: right;
   border-radius: 50px;
   border: 5px solid black;
+}
+
+.box-semanalmente {
+  background-color:#0056b3;
+  border: 5px solid black;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  height: 70%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-boton-semanalmente {
+  border-radius: 30px;
+  background-color:#ff5722;
+  border: 5px solid black;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  height: 25px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-apartados {
+  float: center;
+  width: 70%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.hr-semanalmente {
+  margin-top: 100px;
+}
+
+.hr-semanalmente-abajo {
+  margin-bottom: 100px;
+  margin-top: 50px;
 }
