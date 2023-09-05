@@ -348,3 +348,8 @@ h4 {
   margin-bottom: 100px;
   margin-top: 50px;
 }
+
+.dominio {
+  float: center;
+  color:#ff5722;
+}
