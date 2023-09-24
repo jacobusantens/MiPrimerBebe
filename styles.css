@@ -353,3 +353,60 @@ h4 {
   float: center;
   color:#ff5722;
 }
+
+form {
+  /* Establecer el ancho y el margen del formulario */
+  width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  /* Establecer el estilo de las etiquetas */
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input, select {
+  /* Establecer el estilo de los campos de entrada y selección */
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+input[type="checkbox"] {
+  /* Establecer el estilo de la casilla de verificación */
+  display: inline-block;
+  width: auto;
+}
+
+input[type="submit"] {
+  /* Establecer el estilo del botón de envío */
+  display: block;
+  width: 100%;
+  background-color: #0099ff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  /* Establecer el efecto de cambio de color al pasar el ratón por el botón de envío */
+  background-color: #0066cc;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color:#0099ff;
+}
+
+.enlace-contactacion {
+  font-size: 20px;
+  color:#ff5722;
+  text-align: center;
+}
