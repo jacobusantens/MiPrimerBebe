@@ -1,183 +1,165 @@
 /* Estilos generales para el cuerpo y el título */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
-  }
-  
-  h1 {
-    font-size: 36px;
-    color: #0056b3;
-    text-align: center;
-    margin: 20px 0;
-  }
-  
-  /* Estilos para el texto de introducción */
-  .intro {
-    font-size: 18px;
-    color: #333;
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  /* Estilos para los enlaces */
-  a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Estilos para los contenedores */
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-  }
-  
-  /* Estilos para los títulos secundarios */
-  h2 {
-    font-size: 24px;
-    color: #009688;
-    margin: 30px 0 10px;
-  }
-  
-  /* Estilos para los párrafos */
-  p {
-    font-size: 18px;
-    color: #333;
-    margin: 10px 0;
-  }
-  
-  /* Estilos para las listas */
-  ol {
-    list-style-type: decimal;
-    margin-left: 20px;
-  }
-  
-  li {
-    margin: 10px 0;
-  }
-  
-  /* Estilos para las imágenes */
-  img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-  }
-  
-  /* Estilos para los botones */
-  .button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 18px;
-    color: #fff;
-    background-color: #ff5722;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 10px;
-  }
-  
-  .button:hover {
-    background-color: #ff784e;
-  }
-  
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+h1 {
+  font-size: 36px;
+  color: #0056b3;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Estilos para el texto de introducción */
+.intro {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Estilos para los enlaces */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para los contenedores */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Estilos para los títulos secundarios */
+h2 {
+  font-size: 24px;
+  color: #009688;
+  margin: 30px 0 10px;
+}
+
+/* Estilos para los párrafos */
+p {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+/* Estilos para las listas */
+ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+}
+
+li {
+  margin: 10px 0;
+}
+
+/* Estilos para las imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Estilos para los botones */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #ff5722;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.button:hover {
+  background-color: #ff784e;
+}
+
+/* Estilos para los contenedores de imagen y botón */
+.box-pantalla-inicial {
+  background-color: cadetblue;
+  border: 5px solid black;
+  margin-bottom: 20px;
+  height: 70%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para el texto en los contenedores */
+.texto-pantalla-inicial {
+  font-size: 20px;
+  float: right;
+  margin-right: 50px;
+  width: 400px;
+}
+
+/* Estilos para el pie de página */
+footer {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
   /* Estilos para los contenedores de imagen y botón */
-  .box-pantalla-inicial {
-    background-color: cadetblue;
-    border: 5px solid black;
-    margin-bottom: 20px;
-    height: 70%;
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* Estilos para el texto en los contenedores */
-  .texto-pantalla-inicial {
-    font-size: 20px;
-    float: right;
-    margin-right: 50px;
-    width: 400px;
-  }
-  
-  /* Estilos para el pie de página */
-  footer {
-    text-align: center;
-    color: #666;
-    font-size: 14px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-
-    /* Estilos para los contenedores de imagen y botón */
-    .box-boton-inicio {
-        border-radius: 30px;
-        background-color: #adff2f;
-        border: 5px solid black;
-        margin-bottom: 20px;
-        height: 25px;
-        width: 70%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-
-
-
-      .list {
-        font-size: 35px;
-    }
-    
-    .sub-apartados {
-        margin-top: 70px;
-    }
-
-    .box {
-        background-color:white;
-        border: 5px solid black;
-        margin-top: 20px;
-        height: 25px;
-        width: 100px;
-    }
-
-
-    .escrito-boton-inicio  {
-        font-size: 20px;
-        color:black;
-        text-align: center;
-        margin-top: 100px;
-    }
-
-    .box-home-2 {
+  .box-boton-inicio {
       border-radius: 30px;
-      background-color:#0056b3;
+      background-color: #adff2f;
       border: 5px solid black;
-      float: center;
       margin-bottom: 20px;
+      height: 25px;
+      width: 70%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+
+
+    .list {
+      font-size: 35px;
+  }
+  
+  .sub-apartados {
+      margin-top: 70px;
+  }
+
+  .box {
+      background-color:white;
+      border: 5px solid black;
       margin-top: 20px;
       height: 25px;
-      width: 100%;
+      width: 100px;
   }
 
-    .escrito-boton-amazon  {
+
+  .escrito-boton-inicio  {
       font-size: 20px;
       color:black;
       text-align: center;
-      margin-top: 50px;
+      margin-top: 100px;
   }
 
-  .box-amazon {
+  .box-home-2 {
     border-radius: 30px;
     background-color:#0056b3;
     border: 5px solid black;
@@ -186,227 +168,253 @@ body {
     margin-top: 20px;
     height: 25px;
     width: 100%;
-  }
-    
-    li {
-        margin-top: 25px;
-    }
+}
 
-    h2 {
-        font-size: 30px;
-    text-align:center;
-    }
+  .escrito-boton-amazon  {
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    margin-top: 50px;
+}
 
-    .image {
-        float: center;
-        margin-top: 20px;
-        height: 60%;
-    }
-
-    .title-p {
-        text-align: center;
-        font-size: 20px;
-        color:#009688;
-    }
+.box-amazon {
+  border-radius: 30px;
+  background-color:#0056b3;
+  border: 5px solid black;
+  float: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 25px;
+  width: 100%;
+}
   
-    .bienvenida {
-        font-size: 36px;
-        color: green;
-        text-align: center;
-        margin: 20px 0;
-      }
+  li {
+      margin-top: 25px;
+  }
+
+  h2 {
+      font-size: 30px;
+  text-align:center;
+  }
+
+  .image {
+      float: center;
+      margin-top: 20px;
+      height: 60%;
+  }
+
+  .title-p {
+      text-align: center;
+      font-size: 20px;
+      color:#009688;
+  }
+
+  .bienvenida {
+      font-size: 36px;
+      color: green;
+      text-align: center;
+      margin: 20px 0;
+    }
 
 .container {
-  max-width: 800px;
-  margin: 0 auto;
+max-width: 800px;
+margin: 0 auto;
 }
 
 .title {
-  color: #0056b3;
-  text-align: center;
-  margin-bottom: 20px;
+color: #0056b3;
+text-align: center;
+margin-bottom: 20px;
 }
 
 .intro {
-  color: #333;
-  margin: 10px 0;
+color: #333;
+margin: 10px 0;
 }
 
 .subheading {
-  color: #009688;
-  margin-top: 20px;
+color: #009688;
+margin-top: 20px;
 }
 
 .conclusion {
-  color: #ff5722;
-  margin-top: 30px;
+color: #ff5722;
+margin-top: 30px;
 }
 
 p {
-  color: #333;
-  margin-top: 10px;
-  text-align: center;
+color: #333;
+margin-top: 10px;
+text-align: center;
 }
 
 strong {
-  color: #ff5722;
-  font-size: 30px;
+color: #ff5722;
+font-size: 30px;
 }
 
 h4 {
-  font-size: 30px;
-  color:#0056b3;
+font-size: 30px;
+color:#0056b3;
 }
 
 .title-h2 {
-  margin-top: 120px;
-  margin-bottom: 100px;
-  text-align: center;
-  font-size: 40px;
-  color:#009688;
+margin-top: 120px;
+margin-bottom: 100px;
+text-align: center;
+font-size: 40px;
+color:#009688;
 }
 
 .title-h2-top {
-  margin-top: 50px;
-  margin-bottom: 100px;
-  text-align: center;
-  font-size: 40px;
-  color:#009688;
+margin-top: 50px;
+margin-bottom: 100px;
+text-align: center;
+font-size: 40px;
+color:#009688;
 }
 
 .enlace {
-  font-size: 20px;
-  color:#007bff;
-  text-align: center;
+font-size: 20px;
+color:#007bff;
+text-align: center;
 }
 
 .logo {
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
-  border: 5px solid black;
+width: 300px;
+height: 300px;
+border-radius: 150px;
+border: 5px solid black;
 }
 
 .boton-apartado-2 {
-  border-radius: 30px;
-  background-color:#009688;
-  border: 5px solid black;
-  margin-bottom: 70px;
-  margin-top: 30px;
-  height: 30px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+border-radius: 30px;
+background-color:#009688;
+border: 5px solid black;
+margin-bottom: 70px;
+margin-top: 30px;
+height: 30px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .logo-footer {
-  width: 200px;
-  height: 200px;
-  float: right;
-  border-radius: 100px;
-  border: 5px solid black;
+width: 200px;
+height: 200px;
+float: right;
+border-radius: 100px;
+border: 5px solid black;
 }
 
 .box-semanalmente {
-  background-color:#0056b3;
-  border: 5px solid black;
-  margin-bottom: 20px;
-  margin-left: 100px;
-  height: 70%;
-  width: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+background-color:#0056b3;
+border: 5px solid black;
+margin-bottom: 20px;
+margin-left: 100px;
+height: 70%;
+width: 70%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .box-boton-semanalmente {
-  border-radius: 30px;
-  background-color:#ff5722;
-  border: 5px solid black;
-  margin-bottom: 20px;
-  margin-left: 100px;
-  height: 25px;
-  width: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+border-radius: 30px;
+background-color:#ff5722;
+border: 5px solid black;
+margin-bottom: 20px;
+margin-left: 100px;
+height: 25px;
+width: 70%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .image-apartados {
-  float: center;
-  width: 70%;
-  margin-top: 50px;
-  margin-bottom: 50px;
+float: center;
+width: 70%;
+margin-top: 50px;
+margin-bottom: 50px;
 }
 
 .hr-semanalmente {
-  margin-top: 100px;
+margin-top: 100px;
 }
 
 .hr-semanalmente-abajo {
-  margin-bottom: 100px;
-  margin-top: 50px;
+margin-bottom: 100px;
+margin-top: 50px;
 }
 
 .dominio {
-  float: center;
-  color:#ff5722;
+float: center;
+color:#ff5722;
 }
 
 form {
-  /* Establecer el ancho y el margen del formulario */
-  width: 500px;
-  margin: 0 auto;
+/* Establecer el ancho y el margen del formulario */
+width: 500px;
+margin: 0 auto;
 }
 
 label {
-  /* Establecer el estilo de las etiquetas */
-  display: block;
-  font-weight: bold;
-  margin-top: 10px;
+/* Establecer el estilo de las etiquetas */
+display: block;
+font-weight: bold;
+margin-top: 10px;
 }
 
 input, select {
-  /* Establecer el estilo de los campos de entrada y selección */
-  display: block;
-  width: 100%;
-  border: 1px solid #ccc;
-  padding: 5px;
+/* Establecer el estilo de los campos de entrada y selección */
+display: block;
+width: 100%;
+border: 1px solid #ccc;
+padding: 5px;
 }
 
 input[type="checkbox"] {
-  /* Establecer el estilo de la casilla de verificación */
-  display: inline-block;
-  width: auto;
+/* Establecer el estilo de la casilla de verificación */
+display: inline-block;
+width: auto;
 }
 
 input[type="submit"] {
-  /* Establecer el estilo del botón de envío */
-  display: block;
-  width: 100%;
-  background-color: #0099ff;
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
+/* Establecer el estilo del botón de envío */
+display: block;
+width: 100%;
+background-color: #0099ff;
+color: white;
+border: none;
+padding: 10px;
+cursor: pointer;
 }
 
 input[type="submit"]:hover {
-  /* Establecer el efecto de cambio de color al pasar el ratón por el botón de envío */
-  background-color: #0066cc;
+/* Establecer el efecto de cambio de color al pasar el ratón por el botón de envío */
+background-color: #0066cc;
 }
 
 h3 {
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 20px;
-  color:#0099ff;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 30px;
+font-size: 20px;
+color:#0099ff;
 }
 
 .enlace-contactacion {
-  font-size: 20px;
-  color:#ff5722;
-  text-align: center;
+font-size: 20px;
+color:#ff5722;
+text-align: center;
+}
+
+.title-home {
+  color: black;
+  text-align: left;
+margin-top: 10px;
+font-size: 18px;
+font-weight: 4;
 }
