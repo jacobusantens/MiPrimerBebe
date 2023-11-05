@@ -418,3 +418,26 @@ margin-top: 10px;
 font-size: 18px;
 font-weight: 4;
 }
+
+.margin {
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.text-header {
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a {
+  color:#009688;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
