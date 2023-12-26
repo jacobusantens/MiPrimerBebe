@@ -23,7 +23,26 @@
    
     <div class="container">
 
-    <h1>Formulario de Contacto</h1>
+      <h3 id="Comentarios">Deja tu comentario y valoración sobre nuestra página web.</h3>
+      <form method="POST" action="enviar-comentario.php">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Escribe tu email" required>
+        <label for="comentario">Comentario:</label>
+        <textarea id="comentario" name="comentario" placeholder="Escribe tu comentario" rows="10" cols="50" required></textarea>
+        <label for="valoracion">Valoración (1-5 estrellas):</label>
+        <input type="number" id="valoracion" name="valoracion" min="1" max="5" required>
+        <input type="submit" value="Enviar">
+      </form>
+      
+      <h3>Comentarios anteriores</h3>
+      
+      <ol>
+      
+      </ol>   
+      
+    <h1 id="Formulario">Formulario de Contacto</h1>
     <p>Rellena el formulario para contactarnos y que te podamos ayudar.</p>
     <form method="POST" action="enviar.php">
         <label for="nombre">Nombre:</label>
